@@ -15,7 +15,7 @@
             /* flex-wrap: wrap; */
             /* align-items: center; */
             gap: 10px;
-            width: 500px;
+            width: 70%;
             height: 400px;
             background: gold;
         }
@@ -23,6 +23,17 @@
             background: green;
             border: 1px solid black;
             /* width: 50px; */
+            /* flex-grow: 1; */
+        }
+        .flex-item:nth-child(1){
+            flex-basis: 100px;
+            flex-grow: 0;
+        }
+        .flex-item:nth-child(2){
+            flex-grow: 1;
+        }
+        .flex-item:nth-child(3){
+            flex-grow: 0;
         }
        
 
